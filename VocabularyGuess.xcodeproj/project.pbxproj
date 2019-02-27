@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DF9098B874C295706CE20F6 /* Pods_VocabularyGuess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CECA8DD27D2BE9E0A978C24 /* Pods_VocabularyGuess.framework */; };
+		4D4B297A221D0BE5006FB859 /* ManageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B2979221D0BE5006FB859 /* ManageTableViewController.swift */; };
 		4D93F4782213E41600D16B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93F4772213E41600D16B79 /* AppDelegate.swift */; };
 		4D93F47A2213E41600D16B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93F4792213E41600D16B79 /* ViewController.swift */; };
 		4D93F47D2213E41600D16B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D93F47B2213E41600D16B79 /* Main.storyboard */; };
 		4D93F47F2213E41700D16B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D93F47E2213E41700D16B79 /* Assets.xcassets */; };
 		4D93F4822213E41700D16B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D93F4802213E41700D16B79 /* LaunchScreen.storyboard */; };
+		4D93F48A2213E8C200D16B79 /* RegisterDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93F4892213E8C200D16B79 /* RegisterDataViewController.swift */; };
+		4D93F48E2215025A00D16B79 /* Translations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93F48D2215025A00D16B79 /* Translations.swift */; };
+		4D93F4902215080200D16B79 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93F48F2215080200D16B79 /* PlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CECA8DD27D2BE9E0A978C24 /* Pods_VocabularyGuess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocabularyGuess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4B2979221D0BE5006FB859 /* ManageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTableViewController.swift; sourceTree = "<group>"; };
 		4D93F4742213E41600D16B79 /* VocabularyGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabularyGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D93F4772213E41600D16B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D93F4792213E41600D16B79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		4D93F47E2213E41700D16B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D93F4812213E41700D16B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D93F4832213E41700D16B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D93F4892213E8C200D16B79 /* RegisterDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataViewController.swift; sourceTree = "<group>"; };
+		4D93F48D2215025A00D16B79 /* Translations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translations.swift; sourceTree = "<group>"; };
+		4D93F48F2215080200D16B79 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		C8DCEB11277357B02A820146 /* Pods-VocabularyGuess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyGuess.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocabularyGuess/Pods-VocabularyGuess.release.xcconfig"; sourceTree = "<group>"; };
+		D000BD17A2ACCAC1D04D82B6 /* Pods-VocabularyGuess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyGuess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocabularyGuess/Pods-VocabularyGuess.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF9098B874C295706CE20F6 /* Pods_VocabularyGuess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17353C2D146A9C415FABB72E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CECA8DD27D2BE9E0A978C24 /* Pods_VocabularyGuess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0550D52217B29300D38809 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D93F4792213E41600D16B79 /* ViewController.swift */,
+				4D93F4892213E8C200D16B79 /* RegisterDataViewController.swift */,
+				4D93F48F2215080200D16B79 /* PlayViewController.swift */,
+				4D4B2979221D0BE5006FB859 /* ManageTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D0550D62217B29F00D38809 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D93F48D2215025A00D16B79 /* Translations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D0550D72217B2AA00D38809 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D93F47B2213E41600D16B79 /* Main.storyboard */,
+				4D93F4802213E41700D16B79 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4D93F46B2213E41600D16B79 = {
 			isa = PBXGroup;
 			children = (
 				4D93F4762213E41600D16B79 /* VocabularyGuess */,
 				4D93F4752213E41600D16B79 /* Products */,
+				78047A9089F078FBD40C48FA /* Pods */,
+				17353C2D146A9C415FABB72E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,23 @@
 		4D93F4762213E41600D16B79 /* VocabularyGuess */ = {
 			isa = PBXGroup;
 			children = (
+				4D0550D72217B2AA00D38809 /* Views */,
+				4D0550D62217B29F00D38809 /* Model */,
+				4D0550D52217B29300D38809 /* Controllers */,
 				4D93F4772213E41600D16B79 /* AppDelegate.swift */,
-				4D93F4792213E41600D16B79 /* ViewController.swift */,
-				4D93F47B2213E41600D16B79 /* Main.storyboard */,
 				4D93F47E2213E41700D16B79 /* Assets.xcassets */,
-				4D93F4802213E41700D16B79 /* LaunchScreen.storyboard */,
 				4D93F4832213E41700D16B79 /* Info.plist */,
 			);
 			path = VocabularyGuess;
+			sourceTree = "<group>";
+		};
+		78047A9089F078FBD40C48FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D000BD17A2ACCAC1D04D82B6 /* Pods-VocabularyGuess.debug.xcconfig */,
+				C8DCEB11277357B02A820146 /* Pods-VocabularyGuess.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D93F4862213E41700D16B79 /* Build configuration list for PBXNativeTarget "VocabularyGuess" */;
 			buildPhases = (
+				8AD1F3EAC0C6300BE9266701 /* [CP] Check Pods Manifest.lock */,
 				4D93F4702213E41600D16B79 /* Sources */,
 				4D93F4712213E41600D16B79 /* Frameworks */,
 				4D93F4722213E41600D16B79 /* Resources */,
+				4B61F785CB5C8A5C70835AEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +192,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B61F785CB5C8A5C70835AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VocabularyGuess/Pods-VocabularyGuess-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocabularyGuess/Pods-VocabularyGuess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD1F3EAC0C6300BE9266701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabularyGuess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D93F4702213E41600D16B79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4B297A221D0BE5006FB859 /* ManageTableViewController.swift in Sources */,
 				4D93F47A2213E41600D16B79 /* ViewController.swift in Sources */,
+				4D93F4902215080200D16B79 /* PlayViewController.swift in Sources */,
 				4D93F4782213E41600D16B79 /* AppDelegate.swift in Sources */,
+				4D93F48A2213E8C200D16B79 /* RegisterDataViewController.swift in Sources */,
+				4D93F48E2215025A00D16B79 /* Translations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +397,7 @@
 		};
 		4D93F4872213E41700D16B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D000BD17A2ACCAC1D04D82B6 /* Pods-VocabularyGuess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +416,7 @@
 		};
 		4D93F4882213E41700D16B79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DCEB11277357B02A820146 /* Pods-VocabularyGuess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_VocabularyGuess {
+  umbrella header "Pods-VocabularyGuess-umbrella.h"
+
+  export *
+  module * { export * }
+}
